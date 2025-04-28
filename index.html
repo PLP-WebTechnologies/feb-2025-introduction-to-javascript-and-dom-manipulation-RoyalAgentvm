@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1 id="mainHeading">DOM Manipulation Demo</h1>
+    </header>
+
+    <main class="content-container">
+        <section class="demo-section">
+            <div id="contentBox" class="box">
+                <p id="changeText">Initial content</p>
+            </div>
+
+            <div class="controls">
+                <button id="textBtn" class="btn">Change Text</button>
+                <button id="colorBtn" class="btn">Toggle Background</button>
+                <button id="addBtn" class="btn">Add Item</button>
+                <button id="removeBtn" class="btn">Remove Item</button>
+            </div>
+
+            <ul id="itemList" class="item-list"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
